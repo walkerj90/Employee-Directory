@@ -4,6 +4,8 @@
 
 ## Description
 
+![employee-directory](https://user-images.githubusercontent.com/72112742/117404229-6bc4a200-aebe-11eb-93f9-80d9caf63196.gif)
+
 For this assignment, we created a user directory with multiple contact information for various users. This assignment required us to break up the apps UI into several components to respond and manage different user events. Employee / User data was generated using the [randomuser.me API](https://randomuser.me).
 
 ## Table of Contents
