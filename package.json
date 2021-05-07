@@ -1,32 +1,29 @@
 {
   "name": "employee-directory",
   "version": "1.0.0",
-  "description": "",
-  "homepage": "https://walkerj90.github.io/react-gh-pages",
+  "homepage": " https://walkerj90.github.io/Employee-Directory/",
   "dependencies": {
-    "axios": "^0.21.1",
-    "bootstrap": "^5.0.0",
-    "gh-pages": "^3.1.0",
-    "react": "^17.0.2",
-    "react-bootstrap": "^1.5.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "^4.0.3"
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "react": "^16.13.1",
+    "react-axios": "^2.0.3",
+    "react-bootstrap": "^1.2.2",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://walkerj90.github.io/Employee-Directory/"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/walkerj90/Employee-Directory/issues"
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -39,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
