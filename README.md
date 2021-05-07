@@ -32,7 +32,7 @@ npm install
 
 * Clone/fork repo and install(from the previous instructions) the necessary dependencies. Run the app with `npm start` and view application in your browser of choice.
 
-* View deployed app on [GitHub Pages](https://walkerj90.github.io/employee-directory/).
+* View deployed app on [GitHub Pages](https://walkerj90.github.io/Employee-Directory/).
 
 ## License
 
